@@ -1,15 +1,14 @@
-import { Route, Routes } from 'react-router-dom'
+import { Route, Routes } from 'react-router-dom';
 
-import Login from './components/Login/login'
-import Cadastro from './components/cadastro/cadastro'
-import Voluntaria from "./components/voluntária/Voluntaria"
-import Credit from "./components/agradecimento/Credit"
-import Formulario from "./components/voluntária/formulario/Formulario"
-import Confirmacao from "./components/voluntária/Confirmacao/Confirmacao"
-import Homepage from './components/Home/Homepage'
-import Perfil from './components/Perfil/Perfil'
-import Post from './components/UserPost/Post'
-
+import Login from './components/Login/login';
+import Cadastro from './components/cadastro/cadastro';
+import Voluntaria from './components/voluntária/Voluntaria';
+import Credit from './components/agradecimento/Credit';
+import Formulario from './components/voluntária/formulario/Formulario';
+import Confirmacao from './components/voluntária/Confirmacao/Confirmacao';
+import Homepage from './components/Home/homepage';
+import Perfil from './components/Perfil/perfil';
+import Post from './components/UserPost/Post';
 
 const AppRoutes = () => {
   return (
@@ -26,7 +25,7 @@ const AppRoutes = () => {
       <Route path="/post" element={<Post />} />
       {/* Outras rotas aqui*/}
     </Routes>
-  )
-}
+  );
+};
 
-export default AppRoutes
+export default AppRoutes;
